@@ -45,4 +45,48 @@ OUTPUT:
 Latest value of sum: 12
 Latest value of temp: 0
 156 is a nivens number
-    
+-------------------------------------------------------------------------
+ for i in range(10,0,-1):
+        print(i, end=',')
+  OUTPUT:
+      10,9,8,7,6,5,4,3,2,1,
+------------------------------------------------------------------------
+for i in range(1,11):
+    print(f"square of {i} is {i*i}")
+OUTPUT:
+    square of 1is 1
+square of 2is 4
+square of 3is 9
+square of 4is 16
+square of 5is 25
+square of 6is 36
+square of 7is 49
+square of 8is 64
+square of 9is 81
+square of 10is 100
+ --------------------------------------------------------------------- 
+ m=int(input("enter a number:"))
+for i in range(1,11):
+    print(f"{m}*{i}={m*i}")
+OUTPUT:
+    enter a number: 10
+10*1=10
+10*2=20
+10*3=30
+10*4=40
+10*5=50
+10*6=60
+10*7=70
+10*8=80
+10*9=90
+10*10=100
+-----------------------------------------------------------------------
+num=int(input())
+f=1
+for i in range(num,0,-1):
+    f*=i
+print(f"factorial of{num}is{f}")
+OUTPUT:
+     4
+factorial of4is24
+-----------------------------------------------------------------------
