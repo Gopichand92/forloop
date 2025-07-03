@@ -1,4 +1,4 @@
-# forloop
+# forloop(ARMSTRONG)
 num=int(input("Enter number"))
 temp=num
 n=len(str(num))
@@ -24,3 +24,25 @@ Latest value of temp: 9
 Latest value of sum: 9474
 Latest value of temp: 0
 9474 is a armtrong number
+----------------------------------------------------------------------
+(NIVENS NUMBER)
+num=int(input("Enter number"))
+temp=num
+n=len(str(num))
+sum=0
+while temp>0:
+    digit=temp%10
+    sum+=digit
+    temp//=10
+print("Latest value of sum:",sum)
+print("Latest value of temp:",temp)
+if num%sum==0:
+    print(num,"is a nivens number")
+else:
+    print(num,"is not a nivens number")
+OUTPUT:
+    Enter number 156
+Latest value of sum: 12
+Latest value of temp: 0
+156 is a nivens number
+    
