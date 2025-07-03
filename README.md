@@ -88,5 +88,17 @@ for i in range(num,0,-1):
 print(f"factorial of{num}is{f}")
 OUTPUT:
      4
-factorial of4is24
+factorial of 4 is 24
 -----------------------------------------------------------------------
+n=int(input("enter size:"))
+for i in range(n):
+    for j in range(n):
+        print("*",end=" ")
+    print()
+OUTPUT:
+       enter size: 4
+* * * * 
+* * * * 
+* * * * 
+* * * * 
+-------------------------------------------------------------------------
